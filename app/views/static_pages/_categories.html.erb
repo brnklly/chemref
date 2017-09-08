@@ -1,0 +1,11 @@
+<div id="categories">
+
+  <div class="row">
+    <% @categories.each do |cat| %>
+    <div class="category selector">
+      <input type="radio" id="<%= cat %>" name="element-selector">
+      <label for="<%= cat %>" class="<%= cat %>"><%= display_category_name(cat) %></label>
+    </div>
+    <% end %>
+  </div>
+</div>

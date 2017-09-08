@@ -1,0 +1,294 @@
+/* MAIN STYLESHEET */
+
+/* variables */
+
+/* Colors */
+
+$red: rgb(255, 30, 31);
+$blue: rgb(30, 144, 255);
+$yellow: rgb(255, 235, 30);
+$orange: rgb(255, 141, 30);
+$burntOrange: rgb(207, 83, 0);
+$green: rgb(0, 200, 0);
+$pink: rgb(253, 30, 255);
+$purple: rgb(200, 75, 255);
+$lime: rgb(35, 255, 30);
+$gray: rgb(115, 130, 143);
+
+$redLight: rgba(255, 30, 31, .4);
+$blueLight: rgba(30, 144, 255, .4);
+$yellowLight: rgba(255, 235, 30, .4);
+$orangeLight: rgba(255, 141, 30, .4);
+$burntOrangeLight: rgba(207, 83, 0, .4);
+$greenLight: rgba(0, 200, 0, .4);
+$pinkLight: rgba(253, 30, 255, .4);
+$purpleLight: rgba(200, 75, 255, .4);
+$limeLight: rgba(35, 255, 30, .4);
+$grayLight: rgba(115, 130, 143, .4);
+
+/* universal */
+
+* {
+  box-sizing: border-box;
+  font-family: arial;
+  color: #222;
+}
+
+body {
+  background: white;
+}
+
+/* category colors */
+
+.other-nonmetal {
+  background: $lime;
+}
+.alkali-metal {
+  background: $pink;
+}
+.alkaline-metal {
+  background: $blue;
+}
+.transition-metal {
+  background: $orange;
+}
+.post-transition-metal {
+  background: $gray;
+}
+.metalloid {
+  background: $yellow;
+}
+.halogen {
+  background: $red;
+}
+.noble-gas {
+  background: $burntOrange;
+}
+.lanthanide {
+  background: $purple;
+}
+.actinide {
+  background: $green;
+}
+
+/* table */
+
+#periodic-table {
+  border-collapse: separate;
+  border-spacing: 5px;
+  min-width: 1050px;
+
+  input[name=element-selector] {
+    display: none;
+  }
+
+  td {
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+    text-align: center;
+
+    label:hover {
+      cursor: pointer;
+    }
+  }
+
+  .period-heading,
+  .group-heading {
+    font-size: 16px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    label {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .element {
+    opacity: .8;
+    font-weight: bold;
+    box-shadow: 0 2px 8px -2px black;
+    transition: all 0.25s;
+    border-radius: 2px;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    &.selected {
+      opacity: 1;
+    }
+
+    &.disable {
+      opacity: .3;
+    }
+  }
+
+  #table-display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+
+    #element-preview {
+      width: 80%;
+      height: 100%;
+      // opacity: 0;
+      transition: all 0.25s;
+      display: flex;
+      flex-flow: row wrap;
+
+      .header {
+        width: 100%;
+        height: 33%;
+        background: $lime;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 16px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .info {
+        width: 75%;
+        height: 66%;
+        background: #eee;
+        border-right: 2px solid white;
+
+        .row {
+          width: 100%;
+          height: 25%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          font-size: 14px;
+          border-bottom: 1px solid $lime;
+
+          .key,
+          .value {
+            padding-left: 5px;
+          }
+
+          .key {
+            width: 55%;
+            text-align: left;
+          }
+        }
+      }
+
+      .card {
+        width: 25%;
+        height: 66%;
+        display: flex;
+        flex-flow: column;
+        background: $limeLight;
+        padding: 5px;
+
+        .atomic-number,
+        .name,
+        .atomic-weight {
+          align-self: flex-start;
+        }
+
+        .symbol {
+          font-size: 34px;
+          font-weight: bold;
+        }
+
+        .name {
+          margin-top: auto;
+        }
+      }
+    }
+
+    #blocks {
+      width: 20%;
+      display: flex;
+      flex-flow: column;
+      padding-left: 5px;
+
+      #reset-table {
+        margin-top: auto;
+        width: 100%;
+        padding: 5px;
+      }
+
+      p:first-child {
+        margin: 5px;
+        font-weight: bold;
+        border-bottom: 2px solid #222;
+      }
+
+      .block {
+        display: flex;
+        flex-flow: column;
+        align-self: center;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+#categories {
+  width: 1050px;
+  padding-left: 50px;
+  margin: 25px 0;
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .category {
+    width: 100px;
+    height: 60px;
+    margin: 0 1px;
+    opacity: .75;
+    transition: all 0.25s;
+
+    &.disable {
+      opacity: .3;
+    }
+
+    &.selected {
+      opacity: 1;
+    }
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    input {
+      display: none;
+    }
+
+    label {
+      font-size: 14px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      padding: 4px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

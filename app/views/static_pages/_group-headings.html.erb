@@ -1,0 +1,9 @@
+<tr>
+  <td></td>
+  <% 18.times do |num| %>
+  <td class="group-heading selector">
+    <input type="radio" id="group-<%= num + 1 %>" name="element-selector">
+    <label for="group-<%= num + 1 %>"><%= num + 1 %></label>
+  </td>
+  <% end %>
+</tr>
