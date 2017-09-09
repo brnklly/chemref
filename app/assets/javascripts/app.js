@@ -4,7 +4,22 @@ $(document).on('turbolinks:load', function() {
   //////////////////////////////
 
   var $resetTable = $('#reset-table');
-  var $elementPreview = $('#element-preview');
+  var $preview = $('#element-preview');
+  var $previewName = $('.header .element-name');
+  var $card = $('.card');
+  var $cardNumber = $card.children('.atomic-number');
+  var $cardSymbol = $card.children('.symbol');
+  var $cardName = $card.children('.name');
+  var $cardWeight = $card.children('.atomic-weight');
+  var $info = $preview.children('.info');
+
+  var $elementData = {};
+
+  $.getJSON('./assets/elements.json', function(data) {
+    $.each(data, function(key, value) {
+      $elementData[key] = value;
+    });
+  });
 
   // Functions
   //////////////////////////////
@@ -84,15 +99,37 @@ $(document).on('turbolinks:load', function() {
   });
 
   // when hovering over elements
-  // $('.element').mouseenter(function() {
-  //   // change preview background to background of element
-  //   color = $(this).css('background-color');
-  //   $elementPreview.css('opacity', 1);
-  //   $elementPreview.children('.header').css('background-color', color);
-  // });
-  //
-  // $('.element').mouseleave(function() {
-  //   $elementPreview.css('opacity', '0');
-  // });
+  $('.element').mouseenter(function() {
+    // cancel if element is disabled 
+    if ($(this).hasClass('disable')) {
+      return;
+    }
+
+    // change preview background to background of element
+    color = $(this).css('background-color');
+    colorLight = color.slice(0, 3) + 'a(' + color.slice(4, -1) + ', .4)'
+    // show preview
+    $preview.css('opacity', 1);
+    // change color of preview
+    $preview.children('.header').css('background-color', color);
+    $preview.children('.card').css('background-color', colorLight);
+    $info.children('.row').css('border-bottom-color', color);
+
+    // find element in data
+    element = $elementData[$(this).text()];
+
+    // change preview data
+    $previewName.text(element.name);
+    $cardNumber.text(element.atomicNumber);
+    $cardName.text(element.name);
+    $cardSymbol.text(element.symbol);
+    $cardWeight.text(element.atomicWeight);
+
+
+  });
+
+  $('.element').mouseleave(function() {
+    $preview.css('opacity', '0');
+  });
 
 });

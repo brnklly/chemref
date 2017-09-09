@@ -129,6 +129,11 @@ body {
 
     &.disable {
       opacity: .3;
+
+      &:hover {
+        cursor: default;
+        transform: scale(1);
+      }
     }
   }
 
@@ -141,7 +146,7 @@ body {
     #element-preview {
       width: 80%;
       height: 100%;
-      // opacity: 0;
+      opacity: 0;
       transition: all 0.25s;
       display: flex;
       flex-flow: row wrap;
