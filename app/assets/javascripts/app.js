@@ -12,6 +12,10 @@ $(document).on('turbolinks:load', function() {
   var $cardName = $card.children('.name');
   var $cardWeight = $card.children('.atomic-weight');
   var $info = $preview.children('.info');
+  var $infoGroupPeriod = $info.find('.group-period .value');
+  var $infoBlock = $info.find('.block .value');
+  var $infoIsotopes = $info.find('.key-isotopes .value');
+  var $infoConfiguration = $info.find('.electron-configuration .value');
 
   var $elementData = {};
 
@@ -100,7 +104,7 @@ $(document).on('turbolinks:load', function() {
 
   // when hovering over elements
   $('.element').mouseenter(function() {
-    // cancel if element is disabled 
+    // cancel if element is disabled
     if ($(this).hasClass('disable')) {
       return;
     }
@@ -124,7 +128,10 @@ $(document).on('turbolinks:load', function() {
     $cardName.text(element.name);
     $cardSymbol.text(element.symbol);
     $cardWeight.text(element.atomicWeight);
-
+    $infoGroupPeriod.text(element.group + ', ' + element.period);
+    $infoBlock.text(element.block + ' block');
+    $infoIsotopes.html(element.keyIsotopes);
+    $infoConfiguration.html(element.electronConfiguration);
 
   });
 
