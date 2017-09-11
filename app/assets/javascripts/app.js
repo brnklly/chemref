@@ -120,7 +120,7 @@ $(document).on('turbolinks:load', function() {
     $info.children('.row').css('border-bottom-color', color);
 
     // find element in data
-    element = $elementData[$(this).text()];
+    element = $elementData[$(this).children('a')[0].text];
 
     // change preview data
     $previewName.text(element.name);
@@ -137,6 +137,11 @@ $(document).on('turbolinks:load', function() {
 
   $('.element').mouseleave(function() {
     $preview.css('opacity', '0');
+  });
+
+  // when element is clicked
+  $('.element').on('click', function() {
+    $(this).children('a')[0].click();
   });
 
 });

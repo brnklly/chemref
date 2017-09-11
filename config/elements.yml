@@ -1,0 +1,1181 @@
+---
+H:
+  name: Hydrogen
+  symbol: H
+  atomicNumber: 1
+  atomicWeight: 1.008
+  group: 1
+  period: 1
+  block: s
+  electronConfiguration: 1s<sup>1</sup>
+  keyIsotopes: "<sup>1</sup>H, <sup>2</sup>H"
+He:
+  name: Helium
+  symbol: He
+  atomicNumber: 2
+  atomicWeight: 4.003
+  group: 18
+  period: 1
+  block: s
+  electronConfiguration: 1s<sup>2</sup>
+  keyIsotopes: "<sup>4</sup>He"
+Li:
+  name: Lithium
+  symbol: Li
+  atomicNumber: 3
+  atomicWeight: 6.94
+  group: 1
+  period: 2
+  block: s
+  electronConfiguration: "[He] 2s<sup>1</sup>"
+  keyIsotopes: "<sup>7</sup>Li"
+Be:
+  name: Beryllium
+  symbol: Be
+  atomicNumber: 4
+  atomicWeight: 9.012
+  group: 2
+  period: 2
+  block: s
+  electronConfiguration: "[He] 2s<sup>2</sup>"
+  keyIsotopes: "<sup>9</sup>Be"
+B:
+  name: Boron
+  symbol: B
+  atomicNumber: 5
+  atomicWeight: 10.81
+  group: 13
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>1</sup>"
+  keyIsotopes: "<sup>11</sup>B"
+C:
+  name: Carbon
+  symbol: C
+  atomicNumber: 6
+  atomicWeight: 12.011
+  group: 14
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>2</sup>"
+  keyIsotopes: "<sup>12</sup>C, <sup>13</sup>C, <sup>14</sup>C"
+N:
+  name: Nitrogen
+  symbol: N
+  atomicNumber: 7
+  atomicWeight: 14.007
+  group: 15
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>3</sup>"
+  keyIsotopes: "<sup>14</sup>N"
+O:
+  name: Oxygen
+  symbol: O
+  atomicNumber: 8
+  atomicWeight: 15.999
+  group: 16
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>4</sup>"
+  keyIsotopes: "<sup>16</sup>O"
+F:
+  name: Fluorine
+  symbol: F
+  atomicNumber: 9
+  atomicWeight: 18.998
+  group: 17
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>5</sup>"
+  keyIsotopes: "<sup>19</sup>F"
+Ne:
+  name: Neon
+  symbol: Ne
+  atomicNumber: 10
+  atomicWeight: 20.18
+  group: 18
+  period: 2
+  block: p
+  electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>6</sup>"
+  keyIsotopes: "<sup>20</sup>Ne"
+Na:
+  name: Sodium
+  symbol: Na
+  atomicNumber: 11
+  atomicWeight: 22.99
+  group: 1
+  period: 3
+  block: s
+  electronConfiguration: "[Ne] 3s<sup>1</sup>"
+  keyIsotopes: "<sup>23</sup>Na"
+Mg:
+  name: Magnesium
+  symbol: Mg
+  atomicNumber: 12
+  atomicWeight: 24.305
+  group: 2
+  period: 3
+  block: s
+  electronConfiguration: "[Ne] 3s<sup>2</sup>"
+  keyIsotopes: "<sup>24</sup>Mg"
+Al:
+  name: Aluminium
+  symbol: Al
+  atomicNumber: 13
+  atomicWeight: 26.982
+  group: 13
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>1</sup>"
+  keyIsotopes: "<sup>27</sup>Al"
+Si:
+  name: Silicon
+  symbol: Si
+  atomicNumber: 14
+  atomicWeight: 28.085
+  group: 14
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>2</sup>"
+  keyIsotopes: "<sup>28</sup>Si, <sup>30</sup>Si"
+P:
+  name: Phosphorus
+  symbol: P
+  atomicNumber: 15
+  atomicWeight: 30.974
+  group: 15
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>3</sup>"
+  keyIsotopes: "<sup>31</sup>P"
+S:
+  name: Sulfur
+  symbol: S
+  atomicNumber: 16
+  atomicWeight: 32.06
+  group: 16
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>4</sup>"
+  keyIsotopes: "<sup>32</sup>S"
+Cl:
+  name: Chlorine
+  symbol: Cl
+  atomicNumber: 17
+  atomicWeight: 35.45
+  group: 17
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>5</sup>"
+  keyIsotopes: "<sup>35</sup>Cl, <sup>37</sup>Cl"
+Ar:
+  name: Argon
+  symbol: Ar
+  atomicNumber: 18
+  atomicWeight: 39.948
+  group: 18
+  period: 3
+  block: p
+  electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>6</sup>"
+  keyIsotopes: "<sup>40</sup>Ar"
+K:
+  name: Potassium
+  symbol: K
+  atomicNumber: 19
+  atomicWeight: 39.098
+  group: 1
+  period: 4
+  block: s
+  electronConfiguration: "[Ar] 4s<sup>1</sup>"
+  keyIsotopes: "<sup>39</sup>K"
+Ca:
+  name: Calcium
+  symbol: Ca
+  atomicNumber: 20
+  atomicWeight: 40.078
+  group: 2
+  period: 4
+  block: s
+  electronConfiguration: "[Ar] 4s<sup>2</sup>"
+  keyIsotopes: "<sup>40</sup>Ca"
+Sc:
+  name: Scandium
+  symbol: Sc
+  atomicNumber: 21
+  atomicWeight: 44.956
+  group: 3
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>1</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>45</sup>Sc"
+Ti:
+  name: Titanium
+  symbol: Ti
+  atomicNumber: 22
+  atomicWeight: 47.867
+  group: 4
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>2</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>48</sup>Ti"
+V:
+  name: Vanadium
+  symbol: V
+  atomicNumber: 23
+  atomicWeight: 50.942
+  group: 5
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>3</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>51</sup>V"
+Cr:
+  name: Chromium
+  symbol: Cr
+  atomicNumber: 24
+  atomicWeight: 51.996
+  group: 6
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>5</sup>4s<sup>1</sup>"
+  keyIsotopes: "<sup>52</sup>Cr"
+Mn:
+  name: Manganese
+  symbol: Mn
+  atomicNumber: 25
+  atomicWeight: 54.938
+  group: 7
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>5</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>55</sup>Mn"
+Fe:
+  name: Iron
+  symbol: Fe
+  atomicNumber: 26
+  atomicWeight: 55.845
+  group: 8
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>6</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>56</sup>Fe"
+Co:
+  name: Cobalt
+  symbol: Co
+  atomicNumber: 27
+  atomicWeight: 58.933
+  group: 9
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>7</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>59</sup>Co"
+Ni:
+  name: Nickel
+  symbol: Ni
+  atomicNumber: 28
+  atomicWeight: 58.693
+  group: 10
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>8</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>58</sup>Ni"
+Cu:
+  name: Copper
+  symbol: Cu
+  atomicNumber: 29
+  atomicWeight: 63.546
+  group: 11
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>1</sup>"
+  keyIsotopes: "<sup>63</sup>Cu"
+Zn:
+  name: Zinc
+  symbol: Zn
+  atomicNumber: 30
+  atomicWeight: 65.38
+  group: 12
+  period: 4
+  block: d
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>"
+  keyIsotopes: "<sup>64</sup>Zn"
+Ga:
+  name: Gallium
+  symbol: Ga
+  atomicNumber: 31
+  atomicWeight: 69.723
+  group: 13
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>1</sup>"
+  keyIsotopes: "<sup>69</sup>Ga"
+Ge:
+  name: Germanium
+  symbol: Ge
+  atomicNumber: 32
+  atomicWeight: 72.63
+  group: 14
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>2</sup>"
+  keyIsotopes: "<sup>73</sup>Ge, <sup>74</sup>Ge"
+As:
+  name: Arsenic
+  symbol: As
+  atomicNumber: 33
+  atomicWeight: 74.922
+  group: 15
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>"
+  keyIsotopes: "<sup>75</sup>As"
+Se:
+  name: Selenium
+  symbol: Se
+  atomicNumber: 34
+  atomicWeight: 78.971
+  group: 16
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>4</sup>"
+  keyIsotopes: "<sup>80</sup>Se"
+Br:
+  name: Bromine
+  symbol: Br
+  atomicNumber: 35
+  atomicWeight: 79.904
+  group: 17
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>5</sup>"
+  keyIsotopes: "<sup>79</sup>Br"
+Kr:
+  name: Krypton
+  symbol: Kr
+  atomicNumber: 36
+  atomicWeight: 83.798
+  group: 18
+  period: 4
+  block: p
+  electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>6</sup>"
+  keyIsotopes: "<sup>84</sup>Kr"
+Rb:
+  name: Rubidium
+  symbol: Rb
+  atomicNumber: 37
+  atomicWeight: 85.468
+  group: 1
+  period: 5
+  block: s
+  electronConfiguration: "[Kr] 5s<sup>1</sup>"
+  keyIsotopes: "<sup>85</sup>Rb, <sup>87</sup>Rb"
+Sr:
+  name: Strontium
+  symbol: Sr
+  atomicNumber: 38
+  atomicWeight: 87.62
+  group: 2
+  period: 5
+  block: s
+  electronConfiguration: "[Kr] 5s<sup>2</sup>"
+  keyIsotopes: "<sup>86</sup>Sr, <sup>87</sup>Sr, <sup>88</sup>Sr"
+Y:
+  name: Yttrium
+  symbol: Y
+  atomicNumber: 39
+  atomicWeight: 88.906
+  group: 3
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>1</sup>5s<sup>2</sup>"
+  keyIsotopes: "<sup>89</sup>Y"
+Zr:
+  name: Zirconium
+  symbol: Zr
+  atomicNumber: 40
+  atomicWeight: 91.224
+  group: 4
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>2</sup>5s<sup>2</sup>"
+  keyIsotopes: "<sup>90</sup>Zr, <sup>92</sup>Zr, <sup>94</sup>Zr"
+Nb:
+  name: Niobium
+  symbol: Nb
+  atomicNumber: 41
+  atomicWeight: 92.906
+  group: 5
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>4</sup>5s<sup>1</sup>"
+  keyIsotopes: "<sup>93</sup>Nb"
+Mo:
+  name: Molybdenum
+  symbol: Mo
+  atomicNumber: 42
+  atomicWeight: 95.95
+  group: 6
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>5</sup>5s<sup>1</sup>"
+  keyIsotopes: "<sup>95</sup>Mo, <sup>96</sup>Mo, <sup>98</sup>Mo"
+Tc:
+  name: Technetium
+  symbol: Tc
+  atomicNumber: 43
+  atomicWeight: "[98]"
+  group: 7
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>5</sup>5s<sup>2</sup>"
+  keyIsotopes: Unknown
+Ru:
+  name: Ruthenium
+  symbol: Ru
+  atomicNumber: 44
+  atomicWeight: 101.07
+  group: 8
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>7</sup>5s<sup>1</sup>"
+  keyIsotopes: "<sup>101</sup>Ru, <sup>102</sup>Ru, <sup>104</sup>Ru"
+Rh:
+  name: Rhodium
+  symbol: Rh
+  atomicNumber: 45
+  atomicWeight: 102.906
+  group: 9
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>8</sup>5s<sup>1</sup>"
+  keyIsotopes: "<sup>103</sup>Rh"
+Pd:
+  name: Palladium
+  symbol: Pd
+  atomicNumber: 46
+  atomicWeight: 106.42
+  group: 10
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>10</sup>"
+  keyIsotopes: "<sup>106</sup>Pd"
+Ag:
+  name: Silver
+  symbol: Ag
+  atomicNumber: 47
+  atomicWeight: 107.868
+  group: 11
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>1</sup>"
+  keyIsotopes: "<sup>107</sup>Ag"
+Cd:
+  name: Cadmium
+  symbol: Cd
+  atomicNumber: 48
+  atomicWeight: 112.414
+  group: 12
+  period: 5
+  block: d
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>"
+  keyIsotopes: "<sup>114</sup>Cd"
+In:
+  name: Indium
+  symbol: In
+  atomicNumber: 49
+  atomicWeight: 114.818
+  group: 13
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>1</sup>"
+  keyIsotopes: "<sup>115</sup>In"
+Sn:
+  name: Tin
+  symbol: Sn
+  atomicNumber: 50
+  atomicWeight: 118.71
+  group: 14
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>2</sup>"
+  keyIsotopes: "<sup>120</sup>Sn"
+Sb:
+  name: Antimony
+  symbol: Sb
+  atomicNumber: 51
+  atomicWeight: 121.76
+  group: 15
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>3</sup>"
+  keyIsotopes: "<sup>121</sup>Sb"
+Te:
+  name: Tellurium
+  symbol: Te
+  atomicNumber: 52
+  atomicWeight: 127.6
+  group: 16
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>4</sup>"
+  keyIsotopes: "<sup>130</sup>Te"
+I:
+  name: Iodine
+  symbol: I
+  atomicNumber: 53
+  atomicWeight: 126.904
+  group: 17
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>5</sup>"
+  keyIsotopes: "<sup>127</sup>I"
+Xe:
+  name: Xenon
+  symbol: Xe
+  atomicNumber: 54
+  atomicWeight: 131.293
+  group: 18
+  period: 5
+  block: p
+  electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>6</sup>"
+  keyIsotopes: "<sup>132</sup>Xe"
+Cs:
+  name: Caesium
+  symbol: Cs
+  atomicNumber: 55
+  atomicWeight: 132.905
+  group: 1
+  period: 6
+  block: s
+  electronConfiguration: "[Xe] 6s<sup>1</sup>"
+  keyIsotopes: "<sup>133</sup>Cs"
+Ba:
+  name: Barium
+  symbol: Ba
+  atomicNumber: 56
+  atomicWeight: 137.327
+  group: 2
+  period: 6
+  block: s
+  electronConfiguration: "[Xe] 6s<sup>2</sup>"
+  keyIsotopes: "<sup>138</sup>Ba"
+La:
+  name: Lanthanum
+  symbol: La
+  atomicNumber: 57
+  atomicWeight: 138.905
+  group: Lanthanides
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 5d<sup>1</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>139</sup>La"
+Ce:
+  name: Cerium
+  symbol: Ce
+  atomicNumber: 58
+  atomicWeight: 140.116
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>1</sup>5d<sup>1</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>140</sup>Ce"
+Pr:
+  name: Praseodymium
+  symbol: Pr
+  atomicNumber: 59
+  atomicWeight: 140.908
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>3</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>141</sup>Pr"
+Nd:
+  name: Neodymium
+  symbol: Nd
+  atomicNumber: 60
+  atomicWeight: 144.242
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>4</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>142</sup>Nd"
+Pm:
+  name: Promethium
+  symbol: Pm
+  atomicNumber: 61
+  atomicWeight: "[145]"
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>5</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>145</sup>Pm, <sup>147</sup>Pm"
+Sm:
+  name: Samarium
+  symbol: Sm
+  atomicNumber: 62
+  atomicWeight: 150.36
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>6</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>152</sup>Sm"
+Eu:
+  name: Europium
+  symbol: Eu
+  atomicNumber: 63
+  atomicWeight: 151.964
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>7</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>153</sup>Eu"
+Gd:
+  name: Gadolinium
+  symbol: Gd
+  atomicNumber: 64
+  atomicWeight: 157.25
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>7</sup>5d<sup>1</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>158</sup>Gd"
+Tb:
+  name: Terbium
+  symbol: Tb
+  atomicNumber: 65
+  atomicWeight: 158.925
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>9</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>159</sup>Tb"
+Dy:
+  name: Dysprosium
+  symbol: Dy
+  atomicNumber: 66
+  atomicWeight: 162.5
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>10</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>164</sup>Dy"
+Ho:
+  name: Holmium
+  symbol: Ho
+  atomicNumber: 67
+  atomicWeight: 164.93
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>11</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>165</sup>Ho"
+Er:
+  name: Erbium
+  symbol: Er
+  atomicNumber: 68
+  atomicWeight: 167.259
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>12</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>166</sup>Er"
+Tm:
+  name: Thulium
+  symbol: Tm
+  atomicNumber: 69
+  atomicWeight: 168.934
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>13</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>169</sup>Tm"
+Yb:
+  name: Ytterbium
+  symbol: Yb
+  atomicNumber: 70
+  atomicWeight: 173.045
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>14</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>172</sup>Yb, <sup>173</sup>Yb, <sup>174</sup>Yb"
+Lu:
+  name: Lutetium
+  symbol: Lu
+  atomicNumber: 71
+  atomicWeight: 174.967
+  group: Lanthanides
+  period: 6
+  block: f
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>1</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>175</sup>Lu"
+Hf:
+  name: Hafnium
+  symbol: Hf
+  atomicNumber: 72
+  atomicWeight: 178.49
+  group: 4
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>2</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>177</sup>Hf, <sup>178</sup>Hf, <sup>180</sup>Hf"
+Ta:
+  name: Tantalum
+  symbol: Ta
+  atomicNumber: 73
+  atomicWeight: 180.948
+  group: 5
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>3</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>180</sup>Ta, <sup>181</sup>Ta"
+W:
+  name: Tungsten
+  symbol: W
+  atomicNumber: 74
+  atomicWeight: 183.84
+  group: 6
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>4</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>182</sup>W, <sup>184</sup>W, <sup>186</sup>W"
+Re:
+  name: Rhenium
+  symbol: Re
+  atomicNumber: 75
+  atomicWeight: 186.207
+  group: 7
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>5</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>187</sup>Re"
+Os:
+  name: Osmium
+  symbol: Os
+  atomicNumber: 76
+  atomicWeight: 190.23
+  group: 8
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>192</sup>Os"
+Ir:
+  name: Iridium
+  symbol: Ir
+  atomicNumber: 77
+  atomicWeight: 192.217
+  group: 9
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>7</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>193</sup>Ir"
+Pt:
+  name: Platinum
+  symbol: Pt
+  atomicNumber: 78
+  atomicWeight: 195.084
+  group: 10
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>9</sup>6s<sup>1</sup>"
+  keyIsotopes: "<sup>195</sup>Pt"
+Au:
+  name: Gold
+  symbol: Au
+  atomicNumber: 79
+  atomicWeight: 196.967
+  group: 11
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>1</sup>"
+  keyIsotopes: "<sup>197</sup>Au"
+Hg:
+  name: Mercury
+  symbol: Hg
+  atomicNumber: 80
+  atomicWeight: 200.592
+  group: 12
+  period: 6
+  block: d
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>"
+  keyIsotopes: "<sup>202</sup>Hg"
+Tl:
+  name: Thallium
+  symbol: Tl
+  atomicNumber: 81
+  atomicWeight: 204.38
+  group: 13
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>1</sup>"
+  keyIsotopes: "<sup>205</sup>Tl"
+Pb:
+  name: Lead
+  symbol: Pb
+  atomicNumber: 82
+  atomicWeight: 207.2
+  group: 14
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>2</sup>"
+  keyIsotopes: "<sup>208</sup>Pb"
+Bi:
+  name: Bismuth
+  symbol: Bi
+  atomicNumber: 83
+  atomicWeight: 208.98
+  group: 15
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>3</sup>"
+  keyIsotopes: "<sup>209</sup>Bi"
+Po:
+  name: Polonium
+  symbol: Po
+  atomicNumber: 84
+  atomicWeight: "[209]"
+  group: 16
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>4</sup>"
+  keyIsotopes: "<sup>209</sup>Po, <sup>210</sup>Po"
+At:
+  name: Astatine
+  symbol: At
+  atomicNumber: 85
+  atomicWeight: "[210]"
+  group: 17
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d106s26p5"
+  keyIsotopes: "<sup>210</sup>At, <sup>211</sup>At"
+Rn:
+  name: Radon
+  symbol: Rn
+  atomicNumber: 86
+  atomicWeight: "[222]"
+  group: 18
+  period: 6
+  block: p
+  electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>6</sup>"
+  keyIsotopes: "<sup>211</sup>Rn, <sup>220</sup>Rn, <sup>222</sup>Rn"
+Fr:
+  name: Francium
+  symbol: Fr
+  atomicNumber: 87
+  atomicWeight: "[223]"
+  group: 1
+  period: 7
+  block: s
+  electronConfiguration: "[Rn] 7s<sup>1</sup>"
+  keyIsotopes: "<sup>223</sup>Fr"
+Ra:
+  name: Radium
+  symbol: Ra
+  atomicNumber: 88
+  atomicWeight: "[226]"
+  group: 2
+  period: 7
+  block: s
+  electronConfiguration: "[Rn] 7s<sup>2</sup>"
+  keyIsotopes: "<sup>226</sup>Ra"
+Ac:
+  name: Actinium
+  symbol: Ac
+  atomicNumber: 89
+  atomicWeight: "[227]"
+  group: Actinides
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 6d<sup>1</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>227</sup>Ac"
+Th:
+  name: Thorium
+  symbol: Th
+  atomicNumber: 90
+  atomicWeight: 232.038
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 6d<sup>2</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>230</sup>Th, <sup>232</sup>Th"
+Pa:
+  name: Protactinium
+  symbol: Pa
+  atomicNumber: 91
+  atomicWeight: 231.036
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>2</sup>6d<sup>1</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>231</sup>Pa"
+U:
+  name: Uranium
+  symbol: U
+  atomicNumber: 92
+  atomicWeight: 238.029
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>3</sup>6d<sup>1</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>234</sup>U, <sup>235</sup>U, <sup>238</sup>U"
+Np:
+  name: Neptunium
+  symbol: Np
+  atomicNumber: 93
+  atomicWeight: "[237]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>4</sup>6d<sup>1</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>237</sup>Np"
+Pu:
+  name: Plutonium
+  symbol: Pu
+  atomicNumber: 94
+  atomicWeight: "[244]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>6</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>238</sup>Pu, <sup>239</sup>Pu, <sup>240</sup>Pu"
+Am:
+  name: Americium
+  symbol: Am
+  atomicNumber: 95
+  atomicWeight: "[243]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>7</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>241</sup>Am, <sup>243</sup>Am"
+Cm:
+  name: Curium
+  symbol: Cm
+  atomicNumber: 96
+  atomicWeight: "[247]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>7</sup>6d<sup>1</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>243</sup>Cm, <sup>248</sup>Cm"
+Bk:
+  name: Berkelium
+  symbol: Bk
+  atomicNumber: 97
+  atomicWeight: "[247]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>9</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>247</sup>Bk, <sup>249</sup>Bk"
+Cf:
+  name: Californium
+  symbol: Cf
+  atomicNumber: 98
+  atomicWeight: "[251]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>10</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>249</sup>Cf, <sup>252</sup>Cf"
+Es:
+  name: Einsteinium
+  symbol: Es
+  atomicNumber: 99
+  atomicWeight: "[252]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>11</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>252</sup>Es"
+Fm:
+  name: Fermium
+  symbol: Fm
+  atomicNumber: 100
+  atomicWeight: "[257]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>12</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>257</sup>Fm"
+Md:
+  name: Mendelevium
+  symbol: Md
+  atomicNumber: 101
+  atomicWeight: "[258]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>13</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>258</sup>Md, <sup>260</sup>Md"
+'No':
+  name: Nobelium
+  symbol: 'No'
+  atomicNumber: 102
+  atomicWeight: "[259]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>14</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>259</sup>No"
+Lr:
+  name: Lawrencium
+  symbol: Lr
+  atomicNumber: 103
+  atomicWeight: "[262]"
+  group: Actinides
+  period: 7
+  block: f
+  electronConfiguration: "[Rn] 5f<sup>14</sup>7s<sup>2</sup>7p<sup>1</sup>"
+  keyIsotopes: "<sup>262</sup>Lr"
+Rf:
+  name: Rutherfordium
+  symbol: Rf
+  atomicNumber: 104
+  atomicWeight: "[267]"
+  group: 4
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>2</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>265</sup>Rf"
+Db:
+  name: Dubnium
+  symbol: Db
+  atomicNumber: 105
+  atomicWeight: "[268]"
+  group: 5
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>3</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>268</sup>Db"
+Sg:
+  name: Seaborgium
+  symbol: Sg
+  atomicNumber: 106
+  atomicWeight: "[269]"
+  group: 6
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>4</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>271</sup>Sg"
+Bh:
+  name: Bohrium
+  symbol: Bh
+  atomicNumber: 107
+  atomicWeight: "[270]"
+  group: 7
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>5</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>272</sup>Bh"
+Hs:
+  name: Hassium
+  symbol: Hs
+  atomicNumber: 108
+  atomicWeight: "[269]"
+  group: 8
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>6</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>270</sup>Hs"
+Mt:
+  name: Meitnerium
+  symbol: Mt
+  atomicNumber: 109
+  atomicWeight: "[278]"
+  group: 9
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>7</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>276</sup>Mt"
+Ds:
+  name: Darmstadtium
+  symbol: Ds
+  atomicNumber: 110
+  atomicWeight: "[281]"
+  group: 10
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>9</sup>7s<sup>1</sup>"
+  keyIsotopes: "<sup>281</sup>Ds"
+Rg:
+  name: Roentgenium
+  symbol: Rg
+  atomicNumber: 111
+  atomicWeight: "[280]"
+  group: 11
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>1</sup>"
+  keyIsotopes: "<sup>280</sup>Rg"
+Cn:
+  name: Copernicium
+  symbol: Cn
+  atomicNumber: 112
+  atomicWeight: "[285]"
+  group: 12
+  period: 7
+  block: d
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>"
+  keyIsotopes: "<sup>285</sup>Cn"
+Nh:
+  name: Nihonium
+  symbol: Nh
+  atomicNumber: 113
+  atomicWeight: "[286]"
+  group: 13
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>1</sup>"
+  keyIsotopes: "<sup>286</sup>Nh"
+Fl:
+  name: Flerovium
+  symbol: Fl
+  atomicNumber: 114
+  atomicWeight: "[289]"
+  group: 14
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>2</sup>"
+  keyIsotopes: "<sup>289</sup>Fl"
+Mc:
+  name: Moscovium
+  symbol: Mc
+  atomicNumber: 115
+  atomicWeight: "[289]"
+  group: 15
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>3</sup>"
+  keyIsotopes: "<sup>289</sup>Mc"
+Lv:
+  name: Livermorium
+  symbol: Lv
+  atomicNumber: 116
+  atomicWeight: "[293]"
+  group: 16
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>4</sup>"
+  keyIsotopes: "<sup>293</sup>Lv"
+Ts:
+  name: Tennessine
+  symbol: Ts
+  atomicNumber: 117
+  atomicWeight: "[294]"
+  group: 17
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>5</sup>"
+  keyIsotopes: "<sup>294</sup>Ts"
+Og:
+  name: Oganesson
+  symbol: Og
+  atomicNumber: 118
+  atomicWeight: "[294]"
+  group: 18
+  period: 7
+  block: p
+  electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>6</sup>"
+  keyIsotopes: "<sup>294</sup>Og"
