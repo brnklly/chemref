@@ -11,7 +11,7 @@ $(document).on('turbolinks:load', function() {
   var $cardSymbol = $card.children('.symbol');
   var $cardName = $card.children('.name');
   var $cardWeight = $card.children('.atomic-weight');
-  var $info = $preview.children('.info');
+  var $info = $preview.children().children('.info');
   var $infoGroupPeriod = $info.find('.group-period .value');
   var $infoBlock = $info.find('.block .value');
   var $infoIsotopes = $info.find('.key-isotopes .value');
@@ -115,8 +115,8 @@ $(document).on('turbolinks:load', function() {
     // show preview
     $preview.css('opacity', 1);
     // change color of preview
-    $preview.children('.header').css('background-color', color);
-    $preview.children('.card').css('background-color', colorLight);
+    $preview.children('.header').css('border-color', color);
+    $preview.children().children('.card').css('background-color', color);
     $info.children('.row').css('border-bottom-color', color);
 
     // find element in data
