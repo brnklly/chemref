@@ -15,16 +15,7 @@ $purple: rgb(200, 75, 255);
 $lime: rgb(35, 255, 30);
 $gray: rgb(115, 130, 143);
 
-$redLight: rgba(255, 30, 31, .4);
-$blueLight: rgba(30, 144, 255, .4);
-$yellowLight: rgba(255, 235, 30, .4);
-$orangeLight: rgba(255, 141, 30, .4);
-$burntOrangeLight: rgba(207, 83, 0, .4);
-$greenLight: rgba(0, 200, 0, .4);
-$pinkLight: rgba(253, 30, 255, .4);
-$purpleLight: rgba(200, 75, 255, .4);
-$limeLight: rgba(35, 255, 30, .4);
-$grayLight: rgba(115, 130, 143, .4);
+$liquidColor: rgb(0, 200, 255);
 
 /* universal */
 
@@ -69,6 +60,19 @@ body {
 }
 .actinide {
   background: $green;
+}
+
+.solid {
+  background: $orange;
+}
+.liquid {
+  background: $liquidColor;
+}
+.gas {
+  background: $green;
+}
+.unknown {
+  background: rgb(200,200,200);
 }
 
 /* table */
@@ -146,6 +150,52 @@ body {
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
+    position: relative;
+
+    #state-key {
+      display: none;
+      width: 80%;
+      height: 100%;
+      transition: all 0.25s;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      background: white;
+      display: flex;
+      flex-flow: row nowrap;
+
+      .keys {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-top: 12px;
+
+        .key-element {
+          width: 100px;
+          height: 60px;
+          margin-right: 12px;
+          font-weight: bold;
+          // box-shadow: 0 2px 8px -2px black;
+          transition: all 0.25s;
+          border-radius: 2px;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .temperature {
+        width: 40%;
+
+        td:nth-child(2) {
+          text-align: left;
+        }
+      }
+    }
 
     #element-preview {
       width: 80%;
@@ -259,6 +309,34 @@ body {
         flex-flow: column;
         align-self: center;
         margin-bottom: 5px;
+      }
+    }
+  }
+
+  #temperature-slider-wrap {
+    padding-left: 16px;
+    font-size: 14px;
+
+    div:first-child {
+      text-align: left;
+      font-weight: bold;
+
+      span {
+        font-weight: normal;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 8px;
+
+      #temperature-slider {
+        width: 125px;
+        margin-left: 18px;
+        margin-right: 18px;
       }
     }
   }

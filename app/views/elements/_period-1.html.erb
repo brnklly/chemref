@@ -7,8 +7,17 @@
     <%= link_to 'H', element_path('H') %>
   </td>
   <td colspan="1"></td>
+
   <%= render 'element_preview' %>
-  <td colspan="5"></td>
+
+  <td colspan="5" id="temperature-slider-wrap">
+    <div>Temperature: <span id="temp-value">298 Kelvin (25&#8451;)</span></div>
+    <div class="row">
+      <span>0 K</span>
+      <div id="temperature-slider"></div>
+      <span>6000 K</span>
+    </div>
+  </td>
   <td class="element group-18 period-1 nonmetal noble-gas s-block">
     <%= link_to 'He', element_path('He') %>
   </td>
