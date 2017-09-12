@@ -1,5 +1,6 @@
 $(document).on('turbolinks:load', function() {
 
+  //////////////////////////////
   // Variables
   //////////////////////////////
 
@@ -80,8 +81,16 @@ $(document).on('turbolinks:load', function() {
     $.each(data, function(key, value) {
       $elementData[key] = value;
     });
+  }).done(function() {
+    // set all atomic-numbers
+    $('.element').each(function() {
+      element = getElementData($(this).children().text());
+      $(this).append('<div class="atomic-number">' + element.atomicNumber + '</div>');
+    });
   });
 
+
+  //////////////////////////////
   // Functions
   //////////////////////////////
 
@@ -173,7 +182,9 @@ $(document).on('turbolinks:load', function() {
   function getFahrenheit(kelvin) {
     return (kelvin * (9/5) - 459.67).toFixed();
   }
+  
 
+  //////////////////////////////
   // Events
   //////////////////////////////
 
