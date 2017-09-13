@@ -9,6 +9,8 @@ H:
   block: s
   electronConfiguration: 1s<sup>1</sup>
   keyIsotopes: "<sup>1</sup>H, <sup>2</sup>H"
+  meltingPoint: 13.99
+  boilingPoint: 20.271
 He:
   name: Helium
   symbol: He
@@ -19,6 +21,8 @@ He:
   block: s
   electronConfiguration: 1s<sup>2</sup>
   keyIsotopes: "<sup>4</sup>He"
+  meltingPoint: Unknown
+  boilingPoint: 4.222
 Li:
   name: Lithium
   symbol: Li
@@ -29,6 +33,8 @@ Li:
   block: s
   electronConfiguration: "[He] 2s<sup>1</sup>"
   keyIsotopes: "<sup>7</sup>Li"
+  meltingPoint: 453.65
+  boilingPoint: 1615
 Be:
   name: Beryllium
   symbol: Be
@@ -39,6 +45,8 @@ Be:
   block: s
   electronConfiguration: "[He] 2s<sup>2</sup>"
   keyIsotopes: "<sup>9</sup>Be"
+  meltingPoint: 1560
+  boilingPoint: 2741
 B:
   name: Boron
   symbol: B
@@ -49,6 +57,8 @@ B:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>1</sup>"
   keyIsotopes: "<sup>11</sup>B"
+  meltingPoint: 2350
+  boilingPoint: 4273
 C:
   name: Carbon
   symbol: C
@@ -59,6 +69,8 @@ C:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>2</sup>"
   keyIsotopes: "<sup>12</sup>C, <sup>13</sup>C, <sup>14</sup>C"
+  meltingPoint: 4098
+  boilingPoint: 4098
 N:
   name: Nitrogen
   symbol: N
@@ -69,6 +81,8 @@ N:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>3</sup>"
   keyIsotopes: "<sup>14</sup>N"
+  meltingPoint: 63.2
+  boilingPoint: 77.355
 O:
   name: Oxygen
   symbol: O
@@ -79,6 +93,8 @@ O:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>4</sup>"
   keyIsotopes: "<sup>16</sup>O"
+  meltingPoint: 54.36
+  boilingPoint: 90.188
 F:
   name: Fluorine
   symbol: F
@@ -89,6 +105,8 @@ F:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>5</sup>"
   keyIsotopes: "<sup>19</sup>F"
+  meltingPoint: 53.48
+  boilingPoint: 85.04
 Ne:
   name: Neon
   symbol: Ne
@@ -99,6 +117,8 @@ Ne:
   block: p
   electronConfiguration: "[He] 2s<sup>2</sup>2p<sup>6</sup>"
   keyIsotopes: "<sup>20</sup>Ne"
+  meltingPoint: 24.56
+  boilingPoint: 27.104
 Na:
   name: Sodium
   symbol: Na
@@ -109,6 +129,8 @@ Na:
   block: s
   electronConfiguration: "[Ne] 3s<sup>1</sup>"
   keyIsotopes: "<sup>23</sup>Na"
+  meltingPoint: 370.944
+  boilingPoint: 1156.09
 Mg:
   name: Magnesium
   symbol: Mg
@@ -119,6 +141,8 @@ Mg:
   block: s
   electronConfiguration: "[Ne] 3s<sup>2</sup>"
   keyIsotopes: "<sup>24</sup>Mg"
+  meltingPoint: 923
+  boilingPoint: 1363
 Al:
   name: Aluminium
   symbol: Al
@@ -129,6 +153,8 @@ Al:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>1</sup>"
   keyIsotopes: "<sup>27</sup>Al"
+  meltingPoint: 933.473
+  boilingPoint: 2792
 Si:
   name: Silicon
   symbol: Si
@@ -139,6 +165,8 @@ Si:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>2</sup>"
   keyIsotopes: "<sup>28</sup>Si, <sup>30</sup>Si"
+  meltingPoint: 1687
+  boilingPoint: 3538
 P:
   name: Phosphorus
   symbol: P
@@ -149,6 +177,8 @@ P:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>3</sup>"
   keyIsotopes: "<sup>31</sup>P"
+  meltingPoint: 317.3
+  boilingPoint: 553.7
 S:
   name: Sulfur
   symbol: S
@@ -159,6 +189,8 @@ S:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>4</sup>"
   keyIsotopes: "<sup>32</sup>S"
+  meltingPoint: 388.36
+  boilingPoint: 717.76
 Cl:
   name: Chlorine
   symbol: Cl
@@ -169,6 +201,8 @@ Cl:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>5</sup>"
   keyIsotopes: "<sup>35</sup>Cl, <sup>37</sup>Cl"
+  meltingPoint: 171.7
+  boilingPoint: 239.11
 Ar:
   name: Argon
   symbol: Ar
@@ -179,6 +213,8 @@ Ar:
   block: p
   electronConfiguration: "[Ne] 3s<sup>2</sup>3p<sup>6</sup>"
   keyIsotopes: "<sup>40</sup>Ar"
+  meltingPoint: 83.81
+  boilingPoint: 87.302
 K:
   name: Potassium
   symbol: K
@@ -189,6 +225,8 @@ K:
   block: s
   electronConfiguration: "[Ar] 4s<sup>1</sup>"
   keyIsotopes: "<sup>39</sup>K"
+  meltingPoint: 336.7
+  boilingPoint: 1032
 Ca:
   name: Calcium
   symbol: Ca
@@ -199,6 +237,8 @@ Ca:
   block: s
   electronConfiguration: "[Ar] 4s<sup>2</sup>"
   keyIsotopes: "<sup>40</sup>Ca"
+  meltingPoint: 1115
+  boilingPoint: 1757
 Sc:
   name: Scandium
   symbol: Sc
@@ -209,6 +249,8 @@ Sc:
   block: d
   electronConfiguration: "[Ar] 3d<sup>1</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>45</sup>Sc"
+  meltingPoint: 1814
+  boilingPoint: 3109
 Ti:
   name: Titanium
   symbol: Ti
@@ -219,6 +261,8 @@ Ti:
   block: d
   electronConfiguration: "[Ar] 3d<sup>2</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>48</sup>Ti"
+  meltingPoint: 1943
+  boilingPoint: 3560
 V:
   name: Vanadium
   symbol: V
@@ -229,6 +273,8 @@ V:
   block: d
   electronConfiguration: "[Ar] 3d<sup>3</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>51</sup>V"
+  meltingPoint: 2183
+  boilingPoint: 3680
 Cr:
   name: Chromium
   symbol: Cr
@@ -239,6 +285,8 @@ Cr:
   block: d
   electronConfiguration: "[Ar] 3d<sup>5</sup>4s<sup>1</sup>"
   keyIsotopes: "<sup>52</sup>Cr"
+  meltingPoint: 2180
+  boilingPoint: 2944
 Mn:
   name: Manganese
   symbol: Mn
@@ -249,6 +297,8 @@ Mn:
   block: d
   electronConfiguration: "[Ar] 3d<sup>5</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>55</sup>Mn"
+  meltingPoint: 1519
+  boilingPoint: 2334
 Fe:
   name: Iron
   symbol: Fe
@@ -259,6 +309,8 @@ Fe:
   block: d
   electronConfiguration: "[Ar] 3d<sup>6</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>56</sup>Fe"
+  meltingPoint: 1811
+  boilingPoint: 3134
 Co:
   name: Cobalt
   symbol: Co
@@ -269,6 +321,8 @@ Co:
   block: d
   electronConfiguration: "[Ar] 3d<sup>7</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>59</sup>Co"
+  meltingPoint: 1768
+  boilingPoint: 3200
 Ni:
   name: Nickel
   symbol: Ni
@@ -279,6 +333,8 @@ Ni:
   block: d
   electronConfiguration: "[Ar] 3d<sup>8</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>58</sup>Ni"
+  meltingPoint: 1728
+  boilingPoint: 3186
 Cu:
   name: Copper
   symbol: Cu
@@ -289,6 +345,8 @@ Cu:
   block: d
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>1</sup>"
   keyIsotopes: "<sup>63</sup>Cu"
+  meltingPoint: 1357.77
+  boilingPoint: 2833
 Zn:
   name: Zinc
   symbol: Zn
@@ -299,6 +357,8 @@ Zn:
   block: d
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>"
   keyIsotopes: "<sup>64</sup>Zn"
+  meltingPoint: 692.677
+  boilingPoint: 1180
 Ga:
   name: Gallium
   symbol: Ga
@@ -309,6 +369,8 @@ Ga:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>1</sup>"
   keyIsotopes: "<sup>69</sup>Ga"
+  meltingPoint: 302.9146
+  boilingPoint: 2502
 Ge:
   name: Germanium
   symbol: Ge
@@ -319,6 +381,8 @@ Ge:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>2</sup>"
   keyIsotopes: "<sup>73</sup>Ge, <sup>74</sup>Ge"
+  meltingPoint: 1211.4
+  boilingPoint: 3106
 As:
   name: Arsenic
   symbol: As
@@ -329,6 +393,8 @@ As:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>"
   keyIsotopes: "<sup>75</sup>As"
+  meltingPoint: 889
+  boilingPoint: 889
 Se:
   name: Selenium
   symbol: Se
@@ -339,6 +405,8 @@ Se:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>4</sup>"
   keyIsotopes: "<sup>80</sup>Se"
+  meltingPoint: 494
+  boilingPoint: 958
 Br:
   name: Bromine
   symbol: Br
@@ -349,6 +417,8 @@ Br:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>5</sup>"
   keyIsotopes: "<sup>79</sup>Br"
+  meltingPoint: 266
+  boilingPoint: 332
 Kr:
   name: Krypton
   symbol: Kr
@@ -359,6 +429,8 @@ Kr:
   block: p
   electronConfiguration: "[Ar] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>6</sup>"
   keyIsotopes: "<sup>84</sup>Kr"
+  meltingPoint: 115.78
+  boilingPoint: 119.735
 Rb:
   name: Rubidium
   symbol: Rb
@@ -369,6 +441,8 @@ Rb:
   block: s
   electronConfiguration: "[Kr] 5s<sup>1</sup>"
   keyIsotopes: "<sup>85</sup>Rb, <sup>87</sup>Rb"
+  meltingPoint: 312.45
+  boilingPoint: 961
 Sr:
   name: Strontium
   symbol: Sr
@@ -379,6 +453,8 @@ Sr:
   block: s
   electronConfiguration: "[Kr] 5s<sup>2</sup>"
   keyIsotopes: "<sup>86</sup>Sr, <sup>87</sup>Sr, <sup>88</sup>Sr"
+  meltingPoint: 1050
+  boilingPoint: 1650
 Y:
   name: Yttrium
   symbol: Y
@@ -389,6 +465,8 @@ Y:
   block: d
   electronConfiguration: "[Kr] 4d<sup>1</sup>5s<sup>2</sup>"
   keyIsotopes: "<sup>89</sup>Y"
+  meltingPoint: 1795
+  boilingPoint: 3618
 Zr:
   name: Zirconium
   symbol: Zr
@@ -399,6 +477,8 @@ Zr:
   block: d
   electronConfiguration: "[Kr] 4d<sup>2</sup>5s<sup>2</sup>"
   keyIsotopes: "<sup>90</sup>Zr, <sup>92</sup>Zr, <sup>94</sup>Zr"
+  meltingPoint: 2127
+  boilingPoint: 4679
 Nb:
   name: Niobium
   symbol: Nb
@@ -409,6 +489,8 @@ Nb:
   block: d
   electronConfiguration: "[Kr] 4d<sup>4</sup>5s<sup>1</sup>"
   keyIsotopes: "<sup>93</sup>Nb"
+  meltingPoint: 2750
+  boilingPoint: 5014
 Mo:
   name: Molybdenum
   symbol: Mo
@@ -419,6 +501,8 @@ Mo:
   block: d
   electronConfiguration: "[Kr] 4d<sup>5</sup>5s<sup>1</sup>"
   keyIsotopes: "<sup>95</sup>Mo, <sup>96</sup>Mo, <sup>98</sup>Mo"
+  meltingPoint: 2895
+  boilingPoint: 4912
 Tc:
   name: Technetium
   symbol: Tc
@@ -429,6 +513,8 @@ Tc:
   block: d
   electronConfiguration: "[Kr] 4d<sup>5</sup>5s<sup>2</sup>"
   keyIsotopes: Unknown
+  meltingPoint: 2430
+  boilingPoint: 4535
 Ru:
   name: Ruthenium
   symbol: Ru
@@ -439,6 +525,8 @@ Ru:
   block: d
   electronConfiguration: "[Kr] 4d<sup>7</sup>5s<sup>1</sup>"
   keyIsotopes: "<sup>101</sup>Ru, <sup>102</sup>Ru, <sup>104</sup>Ru"
+  meltingPoint: 2606
+  boilingPoint: 4420
 Rh:
   name: Rhodium
   symbol: Rh
@@ -449,6 +537,8 @@ Rh:
   block: d
   electronConfiguration: "[Kr] 4d<sup>8</sup>5s<sup>1</sup>"
   keyIsotopes: "<sup>103</sup>Rh"
+  meltingPoint: 2236
+  boilingPoint: 3968
 Pd:
   name: Palladium
   symbol: Pd
@@ -459,6 +549,8 @@ Pd:
   block: d
   electronConfiguration: "[Kr] 4d<sup>10</sup>"
   keyIsotopes: "<sup>106</sup>Pd"
+  meltingPoint: 1828
+  boilingPoint: 3236
 Ag:
   name: Silver
   symbol: Ag
@@ -469,6 +561,8 @@ Ag:
   block: d
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>1</sup>"
   keyIsotopes: "<sup>107</sup>Ag"
+  meltingPoint: 1234.93
+  boilingPoint: 2435
 Cd:
   name: Cadmium
   symbol: Cd
@@ -479,6 +573,8 @@ Cd:
   block: d
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>"
   keyIsotopes: "<sup>114</sup>Cd"
+  meltingPoint: 594.219
+  boilingPoint: 1040
 In:
   name: Indium
   symbol: In
@@ -489,6 +585,8 @@ In:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>1</sup>"
   keyIsotopes: "<sup>115</sup>In"
+  meltingPoint: 429.75
+  boilingPoint: 2300
 Sn:
   name: Tin
   symbol: Sn
@@ -499,6 +597,8 @@ Sn:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>2</sup>"
   keyIsotopes: "<sup>120</sup>Sn"
+  meltingPoint: 505.078
+  boilingPoint: 2859
 Sb:
   name: Antimony
   symbol: Sb
@@ -509,6 +609,8 @@ Sb:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>3</sup>"
   keyIsotopes: "<sup>121</sup>Sb"
+  meltingPoint: 903.778
+  boilingPoint: 1860
 Te:
   name: Tellurium
   symbol: Te
@@ -519,6 +621,8 @@ Te:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>4</sup>"
   keyIsotopes: "<sup>130</sup>Te"
+  meltingPoint: 722.66
+  boilingPoint: 1261
 I:
   name: Iodine
   symbol: I
@@ -529,6 +633,8 @@ I:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>5</sup>"
   keyIsotopes: "<sup>127</sup>I"
+  meltingPoint: 386.9
+  boilingPoint: 457.6
 Xe:
   name: Xenon
   symbol: Xe
@@ -539,6 +645,8 @@ Xe:
   block: p
   electronConfiguration: "[Kr] 4d<sup>10</sup>5s<sup>2</sup>5p<sup>6</sup>"
   keyIsotopes: "<sup>132</sup>Xe"
+  meltingPoint: 161.4
+  boilingPoint: 165.051
 Cs:
   name: Caesium
   symbol: Cs
@@ -549,6 +657,8 @@ Cs:
   block: s
   electronConfiguration: "[Xe] 6s<sup>1</sup>"
   keyIsotopes: "<sup>133</sup>Cs"
+  meltingPoint: 301.7
+  boilingPoint: 944
 Ba:
   name: Barium
   symbol: Ba
@@ -559,6 +669,8 @@ Ba:
   block: s
   electronConfiguration: "[Xe] 6s<sup>2</sup>"
   keyIsotopes: "<sup>138</sup>Ba"
+  meltingPoint: 1000
+  boilingPoint: 2118
 La:
   name: Lanthanum
   symbol: La
@@ -569,6 +681,8 @@ La:
   block: d
   electronConfiguration: "[Xe] 5d<sup>1</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>139</sup>La"
+  meltingPoint: 1193
+  boilingPoint: 3737
 Ce:
   name: Cerium
   symbol: Ce
@@ -579,6 +693,8 @@ Ce:
   block: f
   electronConfiguration: "[Xe] 4f<sup>1</sup>5d<sup>1</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>140</sup>Ce"
+  meltingPoint: 1072
+  boilingPoint: 3716
 Pr:
   name: Praseodymium
   symbol: Pr
@@ -589,6 +705,8 @@ Pr:
   block: f
   electronConfiguration: "[Xe] 4f<sup>3</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>141</sup>Pr"
+  meltingPoint: 1204
+  boilingPoint: 3793
 Nd:
   name: Neodymium
   symbol: Nd
@@ -599,6 +717,8 @@ Nd:
   block: f
   electronConfiguration: "[Xe] 4f<sup>4</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>142</sup>Nd"
+  meltingPoint: 1289
+  boilingPoint: 3347
 Pm:
   name: Promethium
   symbol: Pm
@@ -609,6 +729,8 @@ Pm:
   block: f
   electronConfiguration: "[Xe] 4f<sup>5</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>145</sup>Pm, <sup>147</sup>Pm"
+  meltingPoint: 1315
+  boilingPoint: 3273
 Sm:
   name: Samarium
   symbol: Sm
@@ -619,6 +741,8 @@ Sm:
   block: f
   electronConfiguration: "[Xe] 4f<sup>6</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>152</sup>Sm"
+  meltingPoint: 1345
+  boilingPoint: 2067
 Eu:
   name: Europium
   symbol: Eu
@@ -629,6 +753,8 @@ Eu:
   block: f
   electronConfiguration: "[Xe] 4f<sup>7</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>153</sup>Eu"
+  meltingPoint: 1095
+  boilingPoint: 1802
 Gd:
   name: Gadolinium
   symbol: Gd
@@ -639,6 +765,8 @@ Gd:
   block: f
   electronConfiguration: "[Xe] 4f<sup>7</sup>5d<sup>1</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>158</sup>Gd"
+  meltingPoint: 1586
+  boilingPoint: 3546
 Tb:
   name: Terbium
   symbol: Tb
@@ -649,6 +777,8 @@ Tb:
   block: f
   electronConfiguration: "[Xe] 4f<sup>9</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>159</sup>Tb"
+  meltingPoint: 1632
+  boilingPoint: 3503
 Dy:
   name: Dysprosium
   symbol: Dy
@@ -659,6 +789,8 @@ Dy:
   block: f
   electronConfiguration: "[Xe] 4f<sup>10</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>164</sup>Dy"
+  meltingPoint: 1685
+  boilingPoint: 2840
 Ho:
   name: Holmium
   symbol: Ho
@@ -669,6 +801,8 @@ Ho:
   block: f
   electronConfiguration: "[Xe] 4f<sup>11</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>165</sup>Ho"
+  meltingPoint: 1745
+  boilingPoint: 2973
 Er:
   name: Erbium
   symbol: Er
@@ -679,6 +813,8 @@ Er:
   block: f
   electronConfiguration: "[Xe] 4f<sup>12</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>166</sup>Er"
+  meltingPoint: 1802
+  boilingPoint: 3141
 Tm:
   name: Thulium
   symbol: Tm
@@ -689,6 +825,8 @@ Tm:
   block: f
   electronConfiguration: "[Xe] 4f<sup>13</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>169</sup>Tm"
+  meltingPoint: 1818
+  boilingPoint: 2223
 Yb:
   name: Ytterbium
   symbol: Yb
@@ -699,6 +837,8 @@ Yb:
   block: f
   electronConfiguration: "[Xe] 4f<sup>14</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>172</sup>Yb, <sup>173</sup>Yb, <sup>174</sup>Yb"
+  meltingPoint: 1097
+  boilingPoint: 1469
 Lu:
   name: Lutetium
   symbol: Lu
@@ -709,6 +849,8 @@ Lu:
   block: f
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>1</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>175</sup>Lu"
+  meltingPoint: 1936
+  boilingPoint: 3675
 Hf:
   name: Hafnium
   symbol: Hf
@@ -719,6 +861,8 @@ Hf:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>2</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>177</sup>Hf, <sup>178</sup>Hf, <sup>180</sup>Hf"
+  meltingPoint: 2506
+  boilingPoint: 4873
 Ta:
   name: Tantalum
   symbol: Ta
@@ -729,6 +873,8 @@ Ta:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>3</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>180</sup>Ta, <sup>181</sup>Ta"
+  meltingPoint: 3290
+  boilingPoint: 5728
 W:
   name: Tungsten
   symbol: W
@@ -739,6 +885,8 @@ W:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>4</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>182</sup>W, <sup>184</sup>W, <sup>186</sup>W"
+  meltingPoint: 3687
+  boilingPoint: 5828
 Re:
   name: Rhenium
   symbol: Re
@@ -749,6 +897,8 @@ Re:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>5</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>187</sup>Re"
+  meltingPoint: 3458
+  boilingPoint: 5863
 Os:
   name: Osmium
   symbol: Os
@@ -759,6 +909,8 @@ Os:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>6</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>192</sup>Os"
+  meltingPoint: 3306
+  boilingPoint: 5281
 Ir:
   name: Iridium
   symbol: Ir
@@ -769,6 +921,8 @@ Ir:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>7</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>193</sup>Ir"
+  meltingPoint: 2719
+  boilingPoint: 4701
 Pt:
   name: Platinum
   symbol: Pt
@@ -779,6 +933,8 @@ Pt:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>9</sup>6s<sup>1</sup>"
   keyIsotopes: "<sup>195</sup>Pt"
+  meltingPoint: 2041.4
+  boilingPoint: 4098
 Au:
   name: Gold
   symbol: Au
@@ -789,6 +945,8 @@ Au:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>1</sup>"
   keyIsotopes: "<sup>197</sup>Au"
+  meltingPoint: 1337.33
+  boilingPoint: 3109
 Hg:
   name: Mercury
   symbol: Hg
@@ -799,6 +957,8 @@ Hg:
   block: d
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>"
   keyIsotopes: "<sup>202</sup>Hg"
+  meltingPoint: 234.321
+  boilingPoint: 629.769
 Tl:
   name: Thallium
   symbol: Tl
@@ -809,6 +969,8 @@ Tl:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>1</sup>"
   keyIsotopes: "<sup>205</sup>Tl"
+  meltingPoint: 577
+  boilingPoint: 1746
 Pb:
   name: Lead
   symbol: Pb
@@ -819,6 +981,8 @@ Pb:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>2</sup>"
   keyIsotopes: "<sup>208</sup>Pb"
+  meltingPoint: 600.612
+  boilingPoint: 2022
 Bi:
   name: Bismuth
   symbol: Bi
@@ -829,6 +993,8 @@ Bi:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>3</sup>"
   keyIsotopes: "<sup>209</sup>Bi"
+  meltingPoint: 544.556
+  boilingPoint: 1837
 Po:
   name: Polonium
   symbol: Po
@@ -839,6 +1005,8 @@ Po:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>4</sup>"
   keyIsotopes: "<sup>209</sup>Po, <sup>210</sup>Po"
+  meltingPoint: 527
+  boilingPoint: 1235
 At:
   name: Astatine
   symbol: At
@@ -849,6 +1017,8 @@ At:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d106s26p5"
   keyIsotopes: "<sup>210</sup>At, <sup>211</sup>At"
+  meltingPoint: 573
+  boilingPoint: 623
 Rn:
   name: Radon
   symbol: Rn
@@ -859,6 +1029,8 @@ Rn:
   block: p
   electronConfiguration: "[Xe] 4f<sup>14</sup>5d<sup>10</sup>6s<sup>2</sup>6p<sup>6</sup>"
   keyIsotopes: "<sup>211</sup>Rn, <sup>220</sup>Rn, <sup>222</sup>Rn"
+  meltingPoint: 202
+  boilingPoint: 211.5
 Fr:
   name: Francium
   symbol: Fr
@@ -869,6 +1041,8 @@ Fr:
   block: s
   electronConfiguration: "[Rn] 7s<sup>1</sup>"
   keyIsotopes: "<sup>223</sup>Fr"
+  meltingPoint: 294
+  boilingPoint: 923
 Ra:
   name: Radium
   symbol: Ra
@@ -879,6 +1053,8 @@ Ra:
   block: s
   electronConfiguration: "[Rn] 7s<sup>2</sup>"
   keyIsotopes: "<sup>226</sup>Ra"
+  meltingPoint: 969
+  boilingPoint: 1773
 Ac:
   name: Actinium
   symbol: Ac
@@ -889,6 +1065,8 @@ Ac:
   block: d
   electronConfiguration: "[Rn] 6d<sup>1</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>227</sup>Ac"
+  meltingPoint: 1773
+  boilingPoint: 3473
 Th:
   name: Thorium
   symbol: Th
@@ -899,6 +1077,8 @@ Th:
   block: f
   electronConfiguration: "[Rn] 6d<sup>2</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>230</sup>Th, <sup>232</sup>Th"
+  meltingPoint: 2023
+  boilingPoint: 5058
 Pa:
   name: Protactinium
   symbol: Pa
@@ -909,6 +1089,8 @@ Pa:
   block: f
   electronConfiguration: "[Rn] 5f<sup>2</sup>6d<sup>1</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>231</sup>Pa"
+  meltingPoint: 1845
+  boilingPoint: 4273
 U:
   name: Uranium
   symbol: U
@@ -919,6 +1101,8 @@ U:
   block: f
   electronConfiguration: "[Rn] 5f<sup>3</sup>6d<sup>1</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>234</sup>U, <sup>235</sup>U, <sup>238</sup>U"
+  meltingPoint: 1408
+  boilingPoint: 4404
 Np:
   name: Neptunium
   symbol: Np
@@ -929,6 +1113,8 @@ Np:
   block: f
   electronConfiguration: "[Rn] 5f<sup>4</sup>6d<sup>1</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>237</sup>Np"
+  meltingPoint: 917
+  boilingPoint: 4175
 Pu:
   name: Plutonium
   symbol: Pu
@@ -939,6 +1125,8 @@ Pu:
   block: f
   electronConfiguration: "[Rn] 5f<sup>6</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>238</sup>Pu, <sup>239</sup>Pu, <sup>240</sup>Pu"
+  meltingPoint: 913
+  boilingPoint: 3501
 Am:
   name: Americium
   symbol: Am
@@ -949,6 +1137,8 @@ Am:
   block: f
   electronConfiguration: "[Rn] 5f<sup>7</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>241</sup>Am, <sup>243</sup>Am"
+  meltingPoint: 1449
+  boilingPoint: 2284
 Cm:
   name: Curium
   symbol: Cm
@@ -959,6 +1149,8 @@ Cm:
   block: f
   electronConfiguration: "[Rn] 5f<sup>7</sup>6d<sup>1</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>243</sup>Cm, <sup>248</sup>Cm"
+  meltingPoint: 1618
+  boilingPoint: Unknown
 Bk:
   name: Berkelium
   symbol: Bk
@@ -969,6 +1161,8 @@ Bk:
   block: f
   electronConfiguration: "[Rn] 5f<sup>9</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>247</sup>Bk, <sup>249</sup>Bk"
+  meltingPoint: 1259
+  boilingPoint: Unknown
 Cf:
   name: Californium
   symbol: Cf
@@ -979,6 +1173,8 @@ Cf:
   block: f
   electronConfiguration: "[Rn] 5f<sup>10</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>249</sup>Cf, <sup>252</sup>Cf"
+  meltingPoint: 1173
+  boilingPoint: Unknown
 Es:
   name: Einsteinium
   symbol: Es
@@ -989,6 +1185,8 @@ Es:
   block: f
   electronConfiguration: "[Rn] 5f<sup>11</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>252</sup>Es"
+  meltingPoint: 1133
+  boilingPoint: Unknown
 Fm:
   name: Fermium
   symbol: Fm
@@ -999,6 +1197,8 @@ Fm:
   block: f
   electronConfiguration: "[Rn] 5f<sup>12</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>257</sup>Fm"
+  meltingPoint: 1800
+  boilingPoint: Unknown
 Md:
   name: Mendelevium
   symbol: Md
@@ -1009,6 +1209,8 @@ Md:
   block: f
   electronConfiguration: "[Rn] 5f<sup>13</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>258</sup>Md, <sup>260</sup>Md"
+  meltingPoint: 1100
+  boilingPoint: Unknown
 'No':
   name: Nobelium
   symbol: 'No'
@@ -1019,6 +1221,8 @@ Md:
   block: f
   electronConfiguration: "[Rn] 5f<sup>14</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>259</sup>No"
+  meltingPoint: 1100
+  boilingPoint: Unknown
 Lr:
   name: Lawrencium
   symbol: Lr
@@ -1029,6 +1233,8 @@ Lr:
   block: f
   electronConfiguration: "[Rn] 5f<sup>14</sup>7s<sup>2</sup>7p<sup>1</sup>"
   keyIsotopes: "<sup>262</sup>Lr"
+  meltingPoint: 1900
+  boilingPoint: Unknown
 Rf:
   name: Rutherfordium
   symbol: Rf
@@ -1039,6 +1245,8 @@ Rf:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>2</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>265</sup>Rf"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Db:
   name: Dubnium
   symbol: Db
@@ -1049,6 +1257,8 @@ Db:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>3</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>268</sup>Db"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Sg:
   name: Seaborgium
   symbol: Sg
@@ -1059,6 +1269,8 @@ Sg:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>4</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>271</sup>Sg"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Bh:
   name: Bohrium
   symbol: Bh
@@ -1069,6 +1281,8 @@ Bh:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>5</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>272</sup>Bh"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Hs:
   name: Hassium
   symbol: Hs
@@ -1079,6 +1293,8 @@ Hs:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>6</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>270</sup>Hs"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Mt:
   name: Meitnerium
   symbol: Mt
@@ -1089,6 +1305,8 @@ Mt:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>7</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>276</sup>Mt"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Ds:
   name: Darmstadtium
   symbol: Ds
@@ -1099,6 +1317,8 @@ Ds:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>9</sup>7s<sup>1</sup>"
   keyIsotopes: "<sup>281</sup>Ds"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Rg:
   name: Roentgenium
   symbol: Rg
@@ -1109,6 +1329,8 @@ Rg:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>1</sup>"
   keyIsotopes: "<sup>280</sup>Rg"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Cn:
   name: Copernicium
   symbol: Cn
@@ -1119,6 +1341,8 @@ Cn:
   block: d
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>"
   keyIsotopes: "<sup>285</sup>Cn"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Nh:
   name: Nihonium
   symbol: Nh
@@ -1129,6 +1353,8 @@ Nh:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>1</sup>"
   keyIsotopes: "<sup>286</sup>Nh"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Fl:
   name: Flerovium
   symbol: Fl
@@ -1139,6 +1365,8 @@ Fl:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>2</sup>"
   keyIsotopes: "<sup>289</sup>Fl"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Mc:
   name: Moscovium
   symbol: Mc
@@ -1149,6 +1377,8 @@ Mc:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>3</sup>"
   keyIsotopes: "<sup>289</sup>Mc"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Lv:
   name: Livermorium
   symbol: Lv
@@ -1159,6 +1389,8 @@ Lv:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>4</sup>"
   keyIsotopes: "<sup>293</sup>Lv"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Ts:
   name: Tennessine
   symbol: Ts
@@ -1169,6 +1401,8 @@ Ts:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>5</sup>"
   keyIsotopes: "<sup>294</sup>Ts"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
 Og:
   name: Oganesson
   symbol: Og
@@ -1179,3 +1413,5 @@ Og:
   block: p
   electronConfiguration: "[Rn] 5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>6</sup>"
   keyIsotopes: "<sup>294</sup>Og"
+  meltingPoint: Unknown
+  boilingPoint: Unknown
